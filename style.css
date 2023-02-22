@@ -1,0 +1,22 @@
+.sandbox{
+--primary_color:rgb(255, 0, 0);
+--secondary_color:rgb(205, 26, 115);
+--base_measurment:20px;
+}
+
+
+.sandbox .box{
+text-align: center;
+--text-color:rgb(215, 233, 236);
+font-style: italic;
+font-weight: bolder;
+color:var(--text-color);
+background: var(--primary_color);
+margin: var(--base_measurment);
+height: calc(var(--base_measurment)*15);
+width: calc(var(--base_measurment)*20);
+line-height:  calc(var(--base_measurment)*15);
+}
+.sandbox  .box2{
+background:var(--secondary_color) ;
+}
